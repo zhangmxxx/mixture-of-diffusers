@@ -1,0 +1,22 @@
+{
+  "cpu_vae": false,
+  "gc": 8,
+  "gc_tiles": null,
+  "regions": [
+    {
+      "area": [0, 800, 0, 352],
+      "guidance_scale": 8,
+      "prompt": "Christmas postcard, a charming house in the countryside surrounded by snow, a giant christmas tree, under a starry night sky, by jakub rozalski and alayna danner and guweiz, elegant, highly detailed, smooth, sharp focus, artstation, stunning masterpiece"
+    },
+    {
+      "area": [448, 800, 0, 352],
+      "ref_img": "examples/IIC.png",
+      "strength": 0.8
+    }
+  ],
+  "scheduler": "lms",
+  "seed": 5525475061,
+  "steps": 57,
+  "canvas_height": 800,
+  "canvas_width": 352
+}

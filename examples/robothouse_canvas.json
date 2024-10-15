@@ -1,0 +1,27 @@
+{
+  "cpu_vae": false,
+  "gc": 8,
+  "gc_tiles": null,
+  "regions": [
+    {
+      "area": [0, 640, 0, 640],
+      "guidance_scale": 8,
+      "prompt": "A charming house in the countryside, by jakub rozalski, sunset lighting, elegant, highly detailed, smooth, sharp focus, artstation, stunning masterpiece"
+    },
+    {
+      "area": [0, 640, 384, 1024],
+      "guidance_scale": 8,
+      "prompt": "A dirt road in the countryside crossing pastures, by jakub rozalski, sunset lighting, elegant, highly detailed, smooth, sharp focus, artstation, stunning masterpiece"
+    },
+    {
+      "area": [0, 640, 768, 1408],
+      "guidance_scale": 8,
+      "prompt": "An old and rusty giant robot lying on a dirt road, by jakub rozalski, dark sunset lighting, elegant, highly detailed, smooth, sharp focus, artstation, stunning masterpiece"
+    }
+  ],
+  "scheduler": "lms",
+  "seed": 7178915308,
+  "steps": 50,
+  "canvas_height": 640,
+  "canvas_width": 1408
+}

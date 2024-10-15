@@ -1,6 +1,5 @@
 import argparse
-import datetime
-from diffusers import LMSDiscreteScheduler, DDIMScheduler
+from diffusers import LMSDiscreteScheduler, DDIMScheduler # type: ignore
 import json
 from pathlib import Path
 import torch
@@ -16,7 +15,7 @@ def generate_grid(generation_arguments):
         scheduler = LMSDiscreteScheduler(beta_start=0.00085, beta_end=0.012, beta_schedule="scaled_linear", num_train_timesteps=1000)
     else:
         raise ValueError(f"Unrecognized scheduler {generation_arguments['scheduler']}")
-    pipe = StableDiffusionTilingPipeline.from_pretrained(model_id, scheduler=scheduler, use_auth_token=True).to("cuda:0")
+    pipe = StableDiffusionTilingPipeline.from_pretrained(model_id, scheduler=scheduler).to("cuda")
 
     pipeargs = {
         "guidance_scale": generation_arguments["gc"],

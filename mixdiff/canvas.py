@@ -10,10 +10,15 @@ from tqdm.auto import tqdm
 from transformers import CLIPFeatureExtractor, CLIPTextModel, CLIPTokenizer
 from typing import List, Optional, Tuple, Union
 
-from diffusers.models import AutoencoderKL, UNet2DConditionModel
-from diffusers.pipeline_utils import DiffusionPipeline
-from diffusers.schedulers import DDIMScheduler, LMSDiscreteScheduler, PNDMScheduler
+# from diffusers.models import AutoencoderKL, UNet2DConditionModel
+# from diffusers.pipeline_utils import DiffusionPipeline
+# from diffusers.schedulers import DDIMScheduler, LMSDiscreteScheduler, PNDMScheduler
+# from diffusers.pipelines.stable_diffusion import StableDiffusionSafetyChecker
+from diffusers import AutoencoderKL, UNet2DConditionModel
+from diffusers import DiffusionPipeline
+from diffusers import DDIMScheduler, LMSDiscreteScheduler, PNDMScheduler
 from diffusers.pipelines.stable_diffusion import StableDiffusionSafetyChecker
+
 
 
 class MaskModes(Enum):
@@ -139,7 +144,7 @@ class Image2ImageRegion(DiffusionRegion):
         # Rescale image to region shape
         self.reference_image = resize(self.reference_image, size=[self.height, self.width])
 
-    def encode_reference_image(self, encoder, device, generator, cpu_vae=False):
+    def encode_reference_image(self, encoder, device, generator, cpu_vae=True):
         """Encodes the reference image for this Image2Image region into the latent space"""
         # Place encoder in CPU or not following the parameter cpu_vae
         if cpu_vae:
@@ -225,6 +230,7 @@ class StableDiffusionCanvasPipeline(DiffusionPipeline):
         scheduler: Union[DDIMScheduler, LMSDiscreteScheduler, PNDMScheduler],
         safety_checker: StableDiffusionSafetyChecker,
         feature_extractor: CLIPFeatureExtractor,
+        torch_dtype=torch.float16
     ):
         super().__init__()
         self.register_modules(
@@ -236,6 +242,12 @@ class StableDiffusionCanvasPipeline(DiffusionPipeline):
             safety_checker=safety_checker,
             feature_extractor=feature_extractor,
         )
+        # torch_dtype should be passed through:
+        # from_pretrained() -> init_kwargs -> init() here
+        # but it's lost even at the start of from_pretrained
+        # Manually set here
+        # but passing unet can be caught in from_pretrained()
+        self.torch_dtype = torch_dtype
 
     def decode_latents(self, latents, cpu_vae=False):
         """Decodes a given array of latents into pixel space"""
@@ -248,6 +260,8 @@ class StableDiffusionCanvasPipeline(DiffusionPipeline):
             vae = self.vae
 
         lat = 1 / 0.18215 * lat
+        print(vae.dtype)
+        print(lat.dtype)
         image = vae.decode(lat).sample
 
         image = (image / 2 + 0.5).clamp(0, 1)
@@ -301,7 +315,7 @@ class StableDiffusionCanvasPipeline(DiffusionPipeline):
         # Create original noisy latents using the timesteps
         latents_shape = (batch_size, self.unet.config.in_channels, canvas_height // 8, canvas_width // 8)
         generator = torch.Generator(self.device).manual_seed(seed)
-        init_noise = torch.randn(latents_shape, generator=generator, device=self.device)
+        init_noise = torch.randn(latents_shape, generator=generator, device=self.device, dtype=self.torch_dtype)
 
         # Reset latents in seed reroll regions, if requested
         for region in reroll_regions:
@@ -348,12 +362,16 @@ class StableDiffusionCanvasPipeline(DiffusionPipeline):
 
             # text2image regions
             for region in text2image_regions:
+                assert(latents.dtype==torch.float16)
                 region_latents = latents[:, :, region.latent_row_init:region.latent_row_end, region.latent_col_init:region.latent_col_end]
                 # expand the latents if we are doing classifier free guidance
                 latent_model_input = torch.cat([region_latents] * 2)
+                print(f"&&&{latent_model_input.dtype}")
                 # scale model input following scheduler rules
                 latent_model_input = self.scheduler.scale_model_input(latent_model_input, t)
                 # predict the noise residual
+                print(f"---{latent_model_input.dtype}")
+                print(f"+++{self.unet.dtype}")
                 noise_pred = self.unet(latent_model_input, t, encoder_hidden_states=region.encoded_prompt)["sample"]
                 # perform guidance
                 noise_pred_uncond, noise_pred_text = noise_pred.chunk(2)
@@ -372,7 +390,8 @@ class StableDiffusionCanvasPipeline(DiffusionPipeline):
             noise_pred = torch.nan_to_num(noise_pred)  # Replace NaNs by zeros: NaN can appear if a position is not covered by any DiffusionRegion
 
             # compute the previous noisy sample x_t -> x_t-1
-            latents = self.scheduler.step(noise_pred, t, latents).prev_sample
+            latents = self.scheduler.step(noise_pred, t, latents).prev_sample # change dtype
+            assert(latents.dtype==torch.float16)
 
             # Image2Image regions: override latents generated by the scheduler
             for region in image2image_regions:

@@ -1,0 +1,898 @@
+{
+  "cpu_vae": true,
+  "gc": 8,
+  "gc_tiles": null,
+  "regions": [
+    {
+      "area": [
+        0,
+        480,
+        0,
+        640
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        0,
+        480,
+        320,
+        960
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        0,
+        480,
+        640,
+        1280
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        0,
+        480,
+        960,
+        1600
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        0,
+        480,
+        1280,
+        1920
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        0,
+        480,
+        1600,
+        2240
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        0,
+        480,
+        1920,
+        2560
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        0,
+        480,
+        2240,
+        2880
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        0,
+        480,
+        2560,
+        3200
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        0,
+        480,
+        2880,
+        3520
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        0,
+        480,
+        3200,
+        3840
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        240,
+        720,
+        0,
+        640
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        240,
+        720,
+        320,
+        960
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        240,
+        720,
+        640,
+        1280
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        240,
+        720,
+        960,
+        1600
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        240,
+        720,
+        1280,
+        1920
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        240,
+        720,
+        1600,
+        2240
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        240,
+        720,
+        1920,
+        2560
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        240,
+        720,
+        2240,
+        2880
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        240,
+        720,
+        2560,
+        3200
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        240,
+        720,
+        2880,
+        3520
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        240,
+        720,
+        3200,
+        3840
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        480,
+        960,
+        0,
+        640
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        480,
+        960,
+        320,
+        960
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        480,
+        960,
+        640,
+        1280
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        480,
+        960,
+        960,
+        1600
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        480,
+        960,
+        1280,
+        1920
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        480,
+        960,
+        1600,
+        2240
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        480,
+        960,
+        1920,
+        2560
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        480,
+        960,
+        2240,
+        2880
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        480,
+        960,
+        2560,
+        3200
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        480,
+        960,
+        2880,
+        3520
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        480,
+        960,
+        3200,
+        3840
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        720,
+        1200,
+        0,
+        640
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        720,
+        1200,
+        320,
+        960
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        720,
+        1200,
+        640,
+        1280
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        720,
+        1200,
+        960,
+        1600
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        720,
+        1200,
+        1280,
+        1920
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        720,
+        1200,
+        1600,
+        2240
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        720,
+        1200,
+        1920,
+        2560
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        720,
+        1200,
+        2240,
+        2880
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        720,
+        1200,
+        2560,
+        3200
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        720,
+        1200,
+        2880,
+        3520
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        720,
+        1200,
+        3200,
+        3840
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        960,
+        1440,
+        0,
+        640
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        960,
+        1440,
+        320,
+        960
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        960,
+        1440,
+        640,
+        1280
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        960,
+        1440,
+        960,
+        1600
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        960,
+        1440,
+        1280,
+        1920
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        960,
+        1440,
+        1600,
+        2240
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        960,
+        1440,
+        1920,
+        2560
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        960,
+        1440,
+        2240,
+        2880
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        960,
+        1440,
+        2560,
+        3200
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        960,
+        1440,
+        2880,
+        3520
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        960,
+        1440,
+        3200,
+        3840
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1200,
+        1680,
+        0,
+        640
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1200,
+        1680,
+        320,
+        960
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1200,
+        1680,
+        640,
+        1280
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1200,
+        1680,
+        960,
+        1600
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1200,
+        1680,
+        1280,
+        1920
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1200,
+        1680,
+        1600,
+        2240
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1200,
+        1680,
+        1920,
+        2560
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1200,
+        1680,
+        2240,
+        2880
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1200,
+        1680,
+        2560,
+        3200
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1200,
+        1680,
+        2880,
+        3520
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1200,
+        1680,
+        3200,
+        3840
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1440,
+        1920,
+        0,
+        640
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1440,
+        1920,
+        320,
+        960
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1440,
+        1920,
+        640,
+        1280
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1440,
+        1920,
+        960,
+        1600
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1440,
+        1920,
+        1280,
+        1920
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1440,
+        1920,
+        1600,
+        2240
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1440,
+        1920,
+        1920,
+        2560
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1440,
+        1920,
+        2240,
+        2880
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1440,
+        1920,
+        2560,
+        3200
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1440,
+        1920,
+        2880,
+        3520
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1440,
+        1920,
+        3200,
+        3840
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1680,
+        2160,
+        0,
+        640
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1680,
+        2160,
+        320,
+        960
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1680,
+        2160,
+        640,
+        1280
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1680,
+        2160,
+        960,
+        1600
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1680,
+        2160,
+        1280,
+        1920
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1680,
+        2160,
+        1600,
+        2240
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1680,
+        2160,
+        1920,
+        2560
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1680,
+        2160,
+        2240,
+        2880
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1680,
+        2160,
+        2560,
+        3200
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1680,
+        2160,
+        2880,
+        3520
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [
+        1680,
+        2160,
+        3200,
+        3840
+      ],
+      "guidance_scale": 8,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    },
+    {
+      "area": [0, 2160, 0, 3840],
+      "ref_img": "examples/eyeguided.png",
+      "strength": 0.25,
+      "prompt": "Abstract decorative illustration, by jackson pollock, elegant, intricate, highly detailed, smooth, sharp focus, vibrant colors, artstation, stunning masterpiece"
+    }
+  ],
+  "scheduler": "lms",
+  "seed": 114514,
+  "steps": 50,
+  "canvas_height": 2160,
+  "canvas_width": 3840
+}
